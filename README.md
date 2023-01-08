@@ -2,11 +2,11 @@
 
 ## Prerequisites
 
-Some IDE might be helpfull e.g.: VS Code or PyCharm.
+Some IDE might be helpful e.g.: [VS Code](https://code.visualstudio.com/download), [PyCharm](https://www.jetbrains.com/de-de/pycharm/download/), [google it](https://www.google.com/search?q=python+editors) or search yourself with your favorite search engine.
 
 You need espeak, ffmpeg, pipenv and vorbis-tools installed on your Computer.
 
-### MscOS
+### MacOS
 
 ```bash
 brew install espeak ffmpeg pipenv vorbis-tools

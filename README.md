@@ -2,12 +2,12 @@
 
 Some IDE might be helpfull e.g.: VS Code or PyCharm.
 
-You need espeak, ffmpeg, pipenv installed on your Computer.
+You need espeak, ffmpeg, pipenv and vorbis-tools installed on your Computer.
 
 ## MscOS
 
 ```bash
-brew install espeak ffmpeg pipenv
+brew install espeak ffmpeg pipenv vorbis-tools
 ```
 
 # Install

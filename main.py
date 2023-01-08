@@ -19,5 +19,5 @@ def read_pdf():
 
 
 if __name__ == '__main__':
-    print(read_pdf())
+    #print(read_pdf())
     speak_and_save_audio(read_pdf())

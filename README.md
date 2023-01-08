@@ -22,7 +22,8 @@ pipenv install pyttsx3 PyPDF2
 ### Run from shell
 
 ```bash
-source .venv/bin/activate
+pipenv shell
+python main.py
 ```
 
 ### Check environment

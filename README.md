@@ -1,8 +1,8 @@
 # Prerequisites
 
-You need espeak, ffmpeg, pipenv installed on your Computer.
+Some IDE might be helpfull e.g.: VS Code or PyCharm.
 
-Some IDE might be helpfull e.g. VS Code or PyCharm.
+You need espeak, ffmpeg, pipenv installed on your Computer.
 
 ## MscOS
 

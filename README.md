@@ -12,6 +12,13 @@ You need espeak, ffmpeg, pipenv and vorbis-tools installed on your Computer.
 brew install espeak ffmpeg pipenv vorbis-tools
 ```
 
+### Ubuntu
+
+```bash
+sudo apt install espeak ffmpeg vorbis-tools
+pip install pipenv
+```
+
 ## Install
 
 ```bash

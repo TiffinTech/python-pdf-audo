@@ -1,0 +1,68 @@
+= python-pdf-audio
+
+== Prerequisites
+
+Some IDE might be helpful e.g.: https://code.visualstudio.com/download[VS Code], https://www.jetbrains.com/de-de/pycharm/download/[PyCharm], https://www.google.com/search?q=python+editors[google it] or search yourself with your favorite search engine.
+
+You need espeak, ffmpeg, and vorbis-tools installed on your Computer. If you only want to install the python libraries in this directory and not globally pipenv/pipx is your choice.
+
+When I started this README I was working on Mac. Latest update is for Ubuntu though.
+
+TTS is quite big. It is up to you if you install it globally or only locally. That is why it is not included in the Pipfile.
+
+=== MacOS
+
+[source,bash]
+----
+brew install espeak ffmpeg vorbis-tools [pipenv]
+----
+
+=== Ubuntu
+
+[source,bash]
+----
+sudo apt install espeak ffmpeg vorbis-tools portaudio19-dev [pipx]
+----
+
+== Install using pipenv
+
+.Setup pipenv on Ubuntu
+[source,bash]
+----
+pipx ensurepath
+python -m venv .venv/
+pipx install pipenv
+----
+
+[source,bash]
+----
+export PIPENV_VENV_IN_PROJECT=1
+pipenv install pyttsx4 PyPDF2 numpy pyaudio [TTS]
+----
+
+.Run from shell
+[source,bash]
+----
+pipenv shell
+python main.py
+----
+
+.Check environment
+[source,bash]
+----
+pipenv --venv
+----
+
+.Cleanup
+[source,bash]
+----
+pip cache purge
+----
+
+== Weblinks
+
+* https://pypi.org/project/PyPDF2/[PyPDF2]
+* https://pypi.org/project/pyttsx4/[pyttsx4] (formally https://pypi.org/project/pyttsx3/[pyttsx3])
+* https://github.com/coqui-ai/TTS[coqui-ai TTS on github]
+* https://youtu.be/LXsdt6RMNfY[Automating My Life with Python: The Ultimate Guide
+| Code With Me]
